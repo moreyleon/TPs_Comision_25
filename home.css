@@ -1,0 +1,50 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+*{
+    font-family: "Roboto Flex", sans-serif ;
+}
+.header{
+    background-color:#EAC926 ;
+
+}
+.header li{
+    list-style: none;
+}
+.vista p{
+    font-size: 12px;
+}
+.ofertas p{
+    font-size: 12px;
+}
+.vista{
+    text-align: center;
+}
+.vista b{
+    font-size: 24px;
+  }
+  .ofertas{
+    text-align: center;
+  }
+  .ofertas b{
+    font-size: 24px;
+  }  
+
+.p{
+    font-size: 18px;
+}  
+
+  .burger-menu{
+    width: 20px;
+    background-color: #03264C;;
+    border-radius: 3px;
+    margin-left: 50%;
+    text-align: center;
+  } 
+
+
+.pie_de_pagina{
+list-style: none;
+    text-align: center;
+}
+
+

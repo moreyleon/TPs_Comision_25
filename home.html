@@ -4,13 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="home.css">
     <title>Mercado Libre</title>
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <img src="./imagenes/logo-mercado-liebre.svg" alt="Logo">
-        <input type="text">
+        <input type="text" ><i class="fa-solid fa-magnifying-glass"></i>
         <h3>Compra en cuotas y sin tarjeta de credito</h3>
         <nav>
             <ul>
@@ -18,16 +20,23 @@
                 <li>Tiendas Oficiales</li>
                 <li>Vender</li>
                 <li>Ayuda</li>
-                <li> <a href="Tp3_formularios/registro.html">Crea tu cuenta</a></li>
-                <li><a href="Tp3_formularios/logueo.html">Ingresar</a></li>
-                <li>Mis compras</li>
+                <li> <a href="Tp3_formularios/registro.html">Crea tu cuenta</a><i class="fa-solid fa-circle-user"></i> </li>
+                <li><a href="Tp3_formularios/logueo.html" >Ingresar</a> <i class="fa-solid fa-arrow-right"></i> </li>
+                <li >Mis compras <i class="fa-solid fa-cart-shopping"></i></li>
+                
             </ul>
         </nav>
+        
+            <div class="burger-menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            
     </header>
     <main>
-        <section>
+        <article class="vista">
             <li>
                 <b> Basado en tu ultima vista</b>
+            
             </li>
             <img src="./imagenes/img-cafetera-moulinex.jpg" alt="Cafetera" height="100px">
             <p>$6770 40% off Cafetera Moulinex</p>
@@ -37,8 +46,9 @@
             <p>$70500 10% off Samsung Galaxy S10</p>
             <img src="./imagenes/img-tv-samsung-smart.jpg" alt="Televisor" height="100px">
             <p>$23200 5% off Smart Tv Samsung 43"</p>
-        </section>
-        <section>
+        
+    </article>
+        <article class="ofertas">
             <li>
                 <b> Seccion de ofertas</b>
             </li>
@@ -50,19 +60,22 @@
             <p>$70500 10% off Samsung Galaxy S10</p>
             <img src="./imagenes/img-tv-samsung-smart.jpg" alt="Televisor" height="100px">
             <p>$23200 5% off Smart Tv Samsung 43"</p>
-        </section>
+        </article>
 
     </main>
-    <footer>
+    <footer class="pie_de_pagina">
+        <i class="fa-regular fa-credit-card"></i>
         <li><b>Pagá con tarjeta o efctivo</b>
             <p>Con Mercado liebre Cash,tenés cuotas sin interes con tarjeta o
                 efectivo en puntos de pago.¡Y siempre es seguro!</p>
         </li>
+        <i class="fa-solid fa-car-side"></i>
         <li><b>Envío gratis desde $2500</b>
             <p>Solo por estar registrado en Mercado Liebre tenés envios gratis en
                 miles de productos.Es un beneficio de Mercado Puntos.
             </p>
         </li>
+        <i class="fa-solid fa-person-military-pointing"></i>
         <li><b>Seguridad,de principio a fin</b>
             <p>¿No te gusta?¡Devolvelo! En Mercado Liebre,no hay nada que no
                 puedas hacer,por que estás siempre protegido.
