@@ -10,41 +10,138 @@
 .header li{
     list-style: none;
 }
-.vista p{
-    font-size: 12px;
+.header nav{
+  display: none;
 }
-.ofertas p{
-    font-size: 12px;
-}
-.vista{
-    text-align: center;
-}
-.vista b{
-    font-size: 24px;
-  }
-  .ofertas{
-    text-align: center;
-  }
-  .ofertas b{
-    font-size: 24px;
-  }  
+  
+  
 
-.p{
-    font-size: 18px;
-}  
+.burger-menu{
+  width: 20px;
+  background-color: #03264C;;
+  border-radius: 3px;
+  margin-left: 50%;
+  text-align: center;
+} 
+.home{
+  padding-top: 10px;
+  width: 90%;
+  text-align: center;
+}
+.home p{
+    font-size: 12px;
+  text-align: center;
+}
 
-  .burger-menu{
-    width: 20px;
-    background-color: #03264C;;
-    border-radius: 3px;
-    margin-left: 50%;
-    text-align: center;
-  } 
+
+.home b{
+    font-size: 24px;
+    
+  }
+  .logo_vista{
+    border-top: 1px;
+    border: solid #ebebeb;
+    padding: 15px;
+  }
+  .logo_vista i {
+    color: green;
+  }
+  
+  
+  
+  .oferta_logo{
+    border-top: 1px;
+    border: solid #ebebeb;
+    padding: 15px;
+  }
+  .oferta_logo i{
+    color: green;
+  }
+  .fa-solid{
+border: 20 20 20 20  
+;
+  }
+
+
+ 
+  
 
 
 .pie_de_pagina{
+  padding-top: 10px;
 list-style: none;
     text-align: center;
+    
+}
+
+@media (min-width: 768px){
+
+  .header{
+    background-color:#EAC926 ;
+
+}
+.header nav{
+  display: block;
+  
+  
+}
+.burger-menu{
+  display: none;
+}
+
+.home section{
+  display: flex;
+flex-direction: row;
+  flex-wrap: wrap;
+
+}
+.home section article{
+  padding: 10px;
+  box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  width: 40%;
+}
+.ofertas{
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
+
+}
+@media (min-width: 1024px){
+  .header{
+    background-color:#EAC926 ;
+
+}
+.header nav{
+  display: block;
+  
+  
+}
+.burger-menu{
+  display: none;
+}
+
+.home section{
+  display: flex;
+flex-direction: row;
+  flex-wrap: wrap;
+
+}
+.home section article{
+  box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  width: 40%;
+}
+.ofertas{
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
+
+
+
+
+
+
 }
 
 
