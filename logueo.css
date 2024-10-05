@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.frente{
+    
+    background-color: #EAC926;
+}
+.nav ul{
+    display: flex;
+
+    font-size: 13px;
+    padding: 16px;
+}
+.nav ul li{
+    
+    list-style: none;
+}
+.login{
+    width: 100%;
+}
+
+.login input{
+    background-color: rgb(238, 234, 228);
+    border-radius: 5 5 5 5;
+    width: 95%;
+    padding: 5px;
+}
+.login button{
+    background-color: rgb(24, 24, 190);
+    width: 97%;
+    color:white;
+    font-size: larger;
+    margin-top: 8px;
+}
+.form{
+    background-color:#666;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.pie_de_pagina{
+    list-style: none;
+        text-align: center;
+    }
+    

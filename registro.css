@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cabezal{
+    background-color: #EAC926;
+    
+}
+.cabezal ul{
+    flex: auto;
+    
+}
+.cabezal li{
+    list-style: none;
+
+
+}
+.form{
+    margin-bottom: 20px;
+}
+.formulario{
+    width: 93%;
+    background-color:#ebebeb;
+    padding: 10px;
+     margin-left: 5px;
+     
+}
+.formulario input{
+    margin: 1px;
+
+    width: 90%;
+    text-align: center;
+}
+.formulario label{
+    text-align: center;
+}
+
+.pie_de_pagina{
+    list-style: none;
+        text-align: center;
+    }
+    

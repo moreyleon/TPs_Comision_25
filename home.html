@@ -1,114 +1,147 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="home.css">
     <title>Mercado Libre</title>
 </head>
+
 <body>
-    <header>
-        <img src="./imagenes/logo-mercado-liebre.svg" alt="Logo" >
-<input type="text" >
-<h3>Compra en cuotas y sin tarjeta de credito</h3>
-<nav>
-    <ul>
-        <li>Ofertas</li>
-        <li>Tiendas Oficiales</li>
-        <li>Vender</li>
-        <li>Ayuda</li>
-        <li>Crea tu cuenta</li>
-        <li>Ingresa</li>
-        <li>Mis compras</li>
-    </ul>
-</nav>
+    <header class="header">
+        <img src="./imagenes/logo-mercado-liebre.svg" alt="Logo">
+        <input type="text"><i class="fa-solid fa-magnifying-glass"></i>
+        <h3>Compra en cuotas y sin tarjeta de credito</h3>
+        <nav>
+            <ul>
+                <li>Ofertas</li>
+                <li>Tiendas Oficiales</li>
+                <li>Vender</li>
+                <li>Ayuda</li>
+                <li> <a href="Tp3_formularios/registro.html">Crea tu cuenta</a><i class="fa-solid fa-circle-user"></i>
+                </li>
+                <li><a href="Tp3_formularios/logueo.html">Ingresar</a> <i class="fa-solid fa-arrow-right"></i> </li>
+                <li>Mis compras <i class="fa-solid fa-cart-shopping"></i></li>
+
+            </ul>
+        </nav>
+
+        <div class="burger-menu">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
     </header>
-    <main>
+    <main class="home">
         <section>
-            <h3>Crea tu cuenta</h3>
-            <form action="" method="post">
-                <label for="Nombre y Apellido">Nombre y Apellido</label>
-                <input type="text">
-                <label for="Nombre de usuario">Nombre de usuario</label>
-                <input type="text">
-                <label for="Email">Email</label>
-                <input type="text">
-                <label for="Fecha de nacimiento">Fecha de nacimiento</label>
-                <input type="date">
-                <label for="Domicilio">Domicilio</label>
-                <input type="address">
-                <label for="Perfil de usuario">Perfil de usuario</label>
-                <select name="Perfil de usuario" id="Perfil de usuario">
-                    <option value="comprar">comprar</option>
-                    <option value="vender">vender</option>
-                </select>
-                <label for="Categorias">Categorias</label>
-                <input type="checkbox" name="electro" value="electro">electro</form>
-                <input type="checkbox" name="moda" value="moda">moda</input>
-                <input type="checkbox" name="hogar" value="hogar">hogar</input>
-                <input type="checkbox" name="jugueteria" value="jugueteria">jugueteria</input>
-                <input type="checkbox" name="vida sana" value="vida sana">vida sana</input>
-                <label for="Foto">Foto</label>
-                <input type="file" accept="jpg">
-                <label for="Contraseña">Contraseña</label>
-                <input type="password"> 
-                <label for="Confrimar Contraseña">Confirmar Contraseña</label>
-                <input type="password"> 
-                <button type="submit">Enviar</button>
-                <button type="reset">Borrar</button>
-            </form>
-        </section>
-        <section><h3>Logueo</h3>
-        <form action="" method="get">
-            <label for="Nombre de uusuario">Nombre de usuario</label>
-            <input type="text" name="Usuario" id="">
-            <label for="Contraseña">Contraseña</label>
-            <input type="password" name="Contraseña" id="">
-            <button type="submit">Enviar</button>
-        </form>
-        
-        </section>
-        <section>
-            <li>
-           <b> Basado en tu ultima vista</b>
-            </li>
-<img src="./imagenes/img-cafetera-moulinex.jpg" alt="Cafetera" height="100px">
-<p>$6770 40% off Cafetera Moulinex</p>
-<img src="./imagenes/img-macbook-pro-2019.jpg" alt="Notebook" height="100px">
-<p>$230000 20% off MacBook Pro 2019 </p>
-<img src="./imagenes/img-samsung-galaxy-s10.jpg" alt="Celular" height="100px">
-<p>$70500 10% off Samsung Galaxy S10</p>
-<img src="./imagenes/img-tv-samsung-smart.jpg" alt="Televisor" height="100px">
-<p>$23200 5% off Smart Tv Samsung 43"</p>
-        </section>
-        <section>
-            <li>
-           <b> Seccion de ofertas</b>
-            </li>
-<img src="./imagenes/img-cafetera-moulinex.jpg" alt="Cafetera" height="100px">
-<p>$6770 40% off Cafetera Moulinex</p>
-<img src="./imagenes/img-macbook-pro-2019.jpg" alt="Notebook" height="100px">
-<p>$230000 20% off MacBook Pro 2019 </p>
-<img src="./imagenes/img-samsung-galaxy-s10.jpg" alt="Celular" height="100px">
-<p>$70500 10% off Samsung Galaxy S10</p>
-<img src="./imagenes/img-tv-samsung-smart.jpg" alt="Televisor" height="100px">
-<p>$23200 5% off Smart Tv Samsung 43"</p>
+        <article>
+
+            <h3><b> Basado en tu ultima vista</b></h3>
+            <img src="./imagenes/img-cafetera-moulinex.jpg" alt="Cafetera" height="100px">
+            <div class="logo_vista">
+                <i class="fa-solid fa-truck"></i>
+                <p>$6770</p>
+                <p> 40% off</p>
+                <p> Cafetera Moulinex</p>
+            </div>
+        </article>
+        <article>
+
+            <img src="./imagenes/img-macbook-pro-2019.jpg" alt="Notebook" height="100px">
+            <div class="logo_vista">
+                <i class="fa-solid fa-truck"></i>
+                <p>$230000 </p>
+                <p>20% off </p>
+                <p> Pro 2019 </p>
+            </div>
+        </article>
+        <article >
+
+            <img src="./imagenes/img-samsung-galaxy-s10.jpg" alt="Celular" height="100px">
+            <div class="logo_vista">
+                <i class="fa-solid fa-truck"></i>
+                <p>$70500</p>
+                <p> 10% off</p>
+                <p> Samsung Galaxy S10</p>
+            </div>
+        </article>
+        <article>
+
+            <img src="./imagenes/img-tv-samsung-smart.jpg" alt="Televisor" height="100px">
+            <div class="logo_vista">
+                <i class="fa-solid fa-truck"></i>
+                <p>$23200</p>
+                <p>5% off</p>
+                <p>Smart Tv Samsung 43"</p>
+            </div>
+        </article>
+
+        <article>
+
+            <h3><b> Ofertas</b></h3>
+
+            <img src="./imagenes/img-cafetera-moulinex.jpg" alt="Cafetera" height="100px">
+            <div class="oferta_logo">
+                <i class="fa-solid fa-truck"></i>
+                <p>$6770</p>
+                <p> 40% off</p>
+                <p> Cafetera Moulinex</p>
+            </div>
+        </article>
+        <article >
+
+            <img src="./imagenes/img-macbook-pro-2019.jpg" alt="Notebook" height="100px">
+            <div class="oferta_logo">
+                <i class="fa-solid fa-truck"></i>
+                <p>$230000 </p>
+                <p>20% off </p>
+                <p> Pro 2019 </p>
+            </div>
+        </article>
+        <article >
+
+            <img src="./imagenes/img-samsung-galaxy-s10.jpg" alt="Celular" height="100px">
+            <div class="oferta_logo">
+                <i class="fa-solid fa-truck"></i>
+                <p>$70500</p>
+                <p> 10% off</p>
+                <p> Samsung Galaxy S10</p>
+            </div>
+        </article>
+        <article >
+
+            <img src="./imagenes/img-tv-samsung-smart.jpg" alt="Televisor" height="100px">
+            <div class="oferta_logo">
+                <i class="fa-solid fa-truck"></i>
+                <p>$23200</p>
+                <p>5% off</p>
+                <p>Smart Tv Samsung 43"</p>
+            </div>
+        </article>
 </section>
-        
     </main>
-<footer>
-<li><b>Pagá con tarjeta o efctivo</b>
-<p>Con Mercado liebre Cash,tenés cuotas sin interes con tarjeta o 
-   efectivo en puntos de pago.¡Y siempre es seguro!</p></li>
-<li><b>Envío gratis desde $2500</b>
-<p>Solo por estar registrado en Mercado Liebre tenés envios gratis en
-    miles de productos.Es un beneficio de Mercado Puntos.
-</p></li>
-<li><b>Seguridad,de principio a fin</b>
-<p>¿No te gusta?¡Devolvelo! En Mercado Liebre,no hay nada que no
-    puedas hacer,por que estás siempre protegido.
-</p></li>
-<li><b>Copyright © 1999-2020 Mercado Liebre S.R.L.</b>
-</li>
-        </footer>
+    <footer class="pie_de_pagina">
+        <i class="fa-regular fa-credit-card"></i>
+        <li><b>Pagá con tarjeta o efctivo</b>
+            <p>Con Mercado liebre Cash,tenés cuotas sin interes con tarjeta o
+                efectivo en puntos de pago.¡Y siempre es seguro!</p>
+        </li>
+        <i class="fa-solid fa-car-side"></i>
+        <li><b>Envío gratis desde $2500</b>
+            <p>Solo por estar registrado en Mercado Liebre tenés envios gratis en
+                miles de productos.Es un beneficio de Mercado Puntos.
+            </p>
+        </li>
+        <i class="fa-solid fa-person-military-pointing"></i>
+        <li><b>Seguridad,de principio a fin</b>
+            <p>¿No te gusta?¡Devolvelo! En Mercado Liebre,no hay nada que no
+                puedas hacer,por que estás siempre protegido.
+            </p>
+        </li>
+        <li><b>Copyright © 1999-2020 Mercado Liebre S.R.L.</b>
+        </li>
+    </footer>
 </body>
+
 </html>
