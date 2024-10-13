@@ -6,68 +6,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/e30d44e91a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="header.css">
     <title>Mercado Libre</title>
 </head>
 
 <body>
-    <header>
-        <div class="logo_barra">
-        <a href="/home.html"><img src="./imagenes/logo-mercado-liebre.svg" alt="Logo"></a>
-       
-        
-        <input type="search" class="barra" id="barra" placeholder="Buscar">
-           <button type="submit"> <i class="fa-solid fa-magnifying-glass"></i></button>
-        <label for="barra-de-busqueda" class="busqueda">
-            
-        </label>
-        
+    <header class="header">
+        <div class="logo">
+            <a href="/home.html"><img src="./imagenes/logo-mercado-liebre.svg" alt="Logo"></a>
+        </div>
+        <div class="barra">
+            <input type="search" id="barra" placeholder="Buscar">
+            <label for="barra-de-busqueda"></label>
+
+            <button type="submit"> <i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+
+
+        </div>
         <div class="compra_cuotas">
-            <i class="fa-solid fa-hand-holding-heart"></i>
-       <h3>Compra en cuotas y sin tarjeta de credito</h3>
-       
-       </div>
- 
-        <nav class="header-nav">
-            <ul>
-                <li>
-                    <a href="#">Ofertas</a>
+
+            <h3> <i class="fa-solid fa-hand-holding-heart"></i>Compra en cuotas y sin tarjeta de credito </h3>
+
+        </div>
+        <div class="menu">
+            <nav class="header-nav">
+
+                <ul>
+                    <li>
+                        <a href="#">Ofertas</a>
                     </li>
+                    <li>
+                        <a href="#">Tiendas Oficiales</a>
+                    </li>
+                    <li>
+                        <a href="#">Vender</a>
+                    </li>
+                    <li>
+                        <a href="#">Ayuda</a>
+                    </li>
+                    
+            </nav>
+            <nav class="usuario">
+               
                 <li>
-                    <a href="#">Tiendas Oficiales</a>
+                    <a href="Tp3_formularios/registro.html">Crea tu cuenta<i class="fa-solid fa-circle-user"></i></a>
                 </li>
                 <li>
-                    <a href="#">Vender</a>
+                    <a href="Tp3_formularios/logueo.html">Ingresar <i class="fa-solid fa-arrow-right"></i></a> </i>
                 </li>
-                <li>
-                    <a href="#">Ayuda</a>
-                </li>
-                <li> <a href="Tp3_formularios/registro.html">Crea tu cuenta</a><i class="fa-solid fa-circle-user"></i>
-                <li><a href="Tp3_formularios/logueo.html">Ingresar</a> <i class="fa-solid fa-arrow-right"></i> </li>
                 <li>Mis compras <i class="fa-solid fa-cart-shopping"></i></li>
 
-            </ul>
-        </nav>
-
+                </ul>
+            </nav>
+        </div>
         <div class="burger-menu">
             <i class="fa-solid fa-bars"></i>
         </div>
 
     </header>
-    
-    <main >
-        <section >
-        <img src="https://fuelcarmagazine.com/wp-content/uploads/2024/09/Franco-Colapinto-Mercado-Libre-Williams-F1.jpg" id="banner" alt="Imagen de propaganda">
-    </section >
-        <h2><b> Basado en tu ultima vista</b></h2>
+
+    <main>
+        <section>
+            <img src="https://fuelcarmagazine.com/wp-content/uploads/2024/09/Franco-Colapinto-Mercado-Libre-Williams-F1.jpg"
+                id="banner" alt="Imagen de propaganda">
+        </section>
+        <h2> Basado en tu ultima vista</h2>
         <section class="home">
-            
+
             <article class="home-articulo">
-                <img src="./imagenes/img-cafetera-moulinex.jpg"  alt="Cafetera" height="100px">
-               
+                <img src="./imagenes/img-cafetera-moulinex.jpg" alt="Cafetera" height="100px">
+
                 <div class="logo_vista">
-                     <i class="fa-solid fa-truck"></i>
-                    <p>$6770</p> <p>40% off </p>
-                    
+                    <i class="fa-solid fa-truck"></i>
+                    <span>$6770</span> <span class="off">40% off </span>
+
                     <p> Cafetera Moulinex</p>
                 </div>
             </article>
@@ -75,17 +88,17 @@
                 <img src="./imagenes/img-macbook-pro-2019.jpg" alt="Notebook" height="100px">
                 <div class="logo_vista">
                     <i class="fa-solid fa-truck"></i>
-                    <p>$230000 </p>
-                     <p class="off">20% off </p>
+                    <span>$230000 </span><span class="off">20% off </span>
+
                     <p> Pro 2019 </p>
                 </div>
             </article>
-            <article class="home-articulo" >
+            <article class="home-articulo">
                 <img src="./imagenes/img-samsung-galaxy-s10.jpg" alt="Celular" height="100px">
                 <div class="logo_vista">
                     <i class="fa-solid fa-truck"></i>
-                    <p>$70500</p>
-                    <p> 10% off</p>
+                    <span>$70500</span><span class="off"> 10% off</span>
+
                     <p> Samsung Galaxy S10</p>
                 </div>
             </article>
@@ -93,21 +106,20 @@
                 <img src="./imagenes/img-tv-samsung-smart.jpg" alt="Televisor" height="100px">
                 <div class="logo_vista">
                     <i class="fa-solid fa-truck"></i>
-                    <p>$23200</p>
-                    <p>5% off</p>
+                    <span>$23200</span><span class="off">5% off</span>
+
                     <p>Smart Tv Samsung 43"</p>
                 </div>
-            </article> 
-            </section>
-              <h2><b> Ofertas</b></h2>
-             <section class="home" >
-            
-                <article class="home-articulo">
+            </article>
+        </section>
+        <h2> Ofertas</h2>
+        <section class="home">
+
+            <article class="home-articulo">
                 <img src="./imagenes/img-cafetera-moulinex.jpg" alt="Cafetera" height="100px">
                 <div class="oferta_logo">
                     <i class="fa-solid fa-truck"></i>
-                    <p>$6770</p>
-                    <p> 40% off</p>
+                    <span>$6770</span> <span class="off">40% off </span>
                     <p> Cafetera Moulinex</p>
                 </div>
             </article>
@@ -116,8 +128,7 @@
                 <img src="./imagenes/img-macbook-pro-2019.jpg" alt="Notebook" height="100px">
                 <div class="oferta_logo">
                     <i class="fa-solid fa-truck"></i>
-                    <p>$230000 </p>
-                    <p>20% off </p>
+                    <span>$230000 </span><span class="off">20% off </span>
                     <p> Pro 2019 </p>
                 </div>
             </article>
@@ -126,8 +137,7 @@
                 <img src="./imagenes/img-samsung-galaxy-s10.jpg" alt="Celular" height="100px">
                 <div class="oferta_logo">
                     <i class="fa-solid fa-truck"></i>
-                    <p>$70500</p>
-                    <p> 10% off</p>
+                    <span>$70500</span><span class="off"> 10% off</span>
                     <p> Samsung Galaxy S10</p>
                 </div>
             </article>
@@ -136,8 +146,7 @@
                 <img src="./imagenes/img-tv-samsung-smart.jpg" alt="Televisor" height="100px">
                 <div class="oferta_logo">
                     <i class="fa-solid fa-truck"></i>
-                    <p>$23200</p>
-                    <p>5% off</p>
+                    <span>$23200</span><span class="off">5% off</span>
                     <p>Smart Tv Samsung 43"</p>
                 </div>
             </article>

@@ -9,99 +9,9 @@
 body{
   background-color:#ebebeb;
 }
-header{
-    background-color:#EAC926 ;
-    padding-bottom: 20px;
-img{
-  width: 100%;
+h2{
+  color: #666;
 }
-  
-
-}
-.logo_barra{
-  display: flex;
-flex-wrap: wrap;
-  padding: 8px;
-img{
-  width:30%;
-}
-
-}
-  
-
-  
-
- .barra{
-  
-  
-  width: 180px;
-  height: 20px;
-  padding: 10px;
-  box-sizing: border-box;
-  margin-left: 50px;
-
-}
-.busqueda{
-  display: inline-block;
-  vertical-align: middle;
-  .fa-magnifying-glass{
-    border: none;
-    color: black;
-    padding-top: 3px;
-    padding-right: 10px;
-  }
- }
-.busqueda button{
-  border-radius: 50% black;
-    padding: 2px;
-    cursor: pointer;
-    height:30px;
-    
-    
-}
-.compra_cuotas{
- 
-   display: flex;
-  flex-direction:center;
-  .fa-hand-holding-heart{
-    border: none;
-    color: black;
-    margin-left: 20px;
-    margin-top: 8px;
-  }
-  h3{
-    font-size:small;
-    margin-top: 10px;
-  }
-}
-.header-nav{
-  display: none;
-}
-  
-
-
-.burger-menu{
-  width: 30px;
-  background-color: #03264C;
-  border-radius: 3px;
-  margin-left: 50%;
-  text-align: center;
-  padding: 5px;
-  margin-top: 20px;
-  i{
-    
-    border: none;
-  color: white;
-}
-
-}
-.home section article{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-   box-shadow: none;
-} 
-
  #banner {
   width: 100%;
   
@@ -124,15 +34,19 @@ img{
   h2{
     text-align: center;
   }
-  .logo_vista{
+  .logo_vista{  
     border-top: 1px;
     border: solid #ebebeb;
     padding: 15px;
-    
-    
-    
     }
-    
+    .off{
+      color: green;
+      margin-left: 10px;
+    }
+    p{
+      margin-top: 10px;
+    }
+   
      
     .fa-truck {
       color: green; 
@@ -172,49 +86,6 @@ list-style: none;
 }
 
 @media (min-width: 768px){
-.burger-menu{
-  display: none;
-}
-
-  header {
-    background-color:#EAC926 ;
-
-}
- ul{
-  text-decoration: none;
-  color: black;
-}
-
-.logo_barra{
-  display: flex;
-  align-items: center;
-  padding: 8px;
-
-}
-.busqueda{
-padding: 20px;
-}
-
-
-.header-nav {    
-  display: block;
-  
-}   
-.header-nav ul{
-  display: flex;
-  flex-direction: row;
-  padding: 20px;
-  
-}
-header li{
-  list-style: none;
-  padding: 20px;
-}
-.header-nav a{
-  text-decoration: none;
-  color: black;
-}
-
 .fa-circle-user{
 border: none;
 color: black;
@@ -240,7 +111,14 @@ width: 2px;
   padding: 15px;
   border-top: 1px;
   border: solid 1px #ebebeb;
+  p{
+    display: block;
+    color: black;
+  }
+  
+  
 }
+
 .oferta_logo{
   padding: 15px;
   border-top: 1px;
@@ -263,19 +141,7 @@ flex-direction: row;
 
 }
 @media (min-width: 1024px){
-  .header{
-    background-color:#EAC926 ;
-
-}
-.header nav{
-  display: block;
   
-  
-}
-.burger-menu{
-  display: none;
-}
-
 .home{
   display: flex;
 flex-direction: row;
