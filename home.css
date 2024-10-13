@@ -150,16 +150,35 @@ flex-direction: row;
 
 .home-articulo{
   width: 20%;
+  box-shadow: none;
+}
+.home-articulo:hover{
+  box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+.fa-truck:hover{
+  transition-duration: 3s;
+  transform: rotate(-90deg );
 }
 .logo_vista{
   padding: 15px;
   border-top: 1px;
   border: solid 1px #ebebeb;
+
 }
+  p{
+  opacity: 0;
+}
+p:hover{
+  content: attr();
+  opacity: 1;
+
+}
+  
 .oferta_logo{
   padding: 15px;
   border-top: 1px;
   border: solid 1px #ebebeb;
+  
 }
 
 

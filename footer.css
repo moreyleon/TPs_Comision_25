@@ -1,0 +1,25 @@
+.pie_de_pagina{
+    margin-top: 50px;
+   display: grid;
+   grid-template-columns: auto auto auto;
+    p{
+    opacity: 1;
+    font-size: small;
+    }
+    h6{
+        font-size: x-small;
+        padding-top: 30px;
+        
+    }
+}
+    
+.fa-credit-card{
+    font-size: 30px;
+    
+}
+.fa-car-side{
+    font-size: 30px;
+}
+.fa-person-military-pointing{
+    font-size: 30px;
+}

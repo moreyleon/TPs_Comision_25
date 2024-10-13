@@ -205,22 +205,18 @@ header li {
     }
   
   }
-
-    
-  
-
   .menu{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
   }
   .header-nav{
-    font-size: small;
+    font-size: large;
   }
 .usuario{
-  font-size: small;
-  
+  font-size: large;
 }
+
 
 
 
