@@ -118,7 +118,8 @@ button {
     background-color: #EAC926;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: row;
+    text-align: center;
   }
 
 
@@ -134,23 +135,16 @@ button {
   display: flex;
   margin-bottom: 20px;
   width: 30%;
+  
+ padding: 15px;
+  button {
+height: auto;
+    margin-left: 25px;
+  }
 }
 
 .compra_cuotas {
-
   display: flex;
-
-}
-
-.barra {
-  display: flex;
-  align-items: center;
-  padding: 8px;
-
-  button {
-
-    margin-left: 25px;
-  }
 }
 
 .busqueda {
@@ -161,20 +155,21 @@ button {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row ;
   
 }
 
 .header-nav {
   font-size: x-small;
   display: flex;
-
+text-align: start;
 }
 
 .usuario {
   font-size: x-small;
   display: flex;
-width: 50%;
-margin-top: 15px;
+margin-top: 20px;
+margin-left: 60px;
 
   a {
     color: black;
@@ -211,6 +206,21 @@ header li {
   
   }
 
+    
+  
+
+  .menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .header-nav{
+    font-size: small;
+  }
+.usuario{
+  font-size: small;
+  
+}
 
 
 
